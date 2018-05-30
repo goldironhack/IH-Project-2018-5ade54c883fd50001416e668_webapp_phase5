@@ -1,15 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title></title>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico" rel="stylesheet">
+    <title>NYU thing</title>
+  </head>
+  <body style="background-color: #B042C6">
     <div class="container">
-        <h1>Hello World!</h1>
-        <button id="btn">Click me</button>
+      <div class="row">
+        <div class="col">
+          <div class="col-8">
+            <h1 id="HeadLine">NYU Housing</h1>
+          </div>
+        </div>
+
+
+      </div>
     </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6">
+            <button type="Crimes" name="button">Crimes</button>
+            <button type="Affordability" name="button">Affordability</button>
+            <button type="Distance" name="button">Distance</button>
+        </div>
+        <div class="col-6">
+          <div id="map"></div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </body>
+  <script>
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous" </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOHphq-yGUrBr6aLEbsjzw7onhKaB_ANw&callback=initMap"
+     defer></script>
+
     <script src="index.js"></script>
-</body>
 </html>

@@ -1,9 +1,20 @@
-body {
-    color: #444;
-    font-family: Arial, sans-serif;
+#map{
+  margin-top: 20px;
+  width: 100%;
+  height: 500px;
 }
 
-.container {
-    width: 100%;
-    max-width: 960px;
+#HeadLine{
+  color: #FFB846 !important;
+  font-family: 'Pacifico', cursive;
+  text-align: left;
 }
+
+.button{
+  border-radius: 8px;
+  height: 20px;
+  width: 80px;
+  text-align: center;
+  font-size: 8px;
+}
+/*colors: #3BD4A9, #453003, #38FFE5, #827B10*/
